@@ -1,4 +1,10 @@
-const express = require("express");
+// ===============================
+// API SERVER (api.js) — ES MODULE VERSION
+// ===============================
+
+import express from "express";
+import fetch from "node-fetch";
+
 const app = express();
 app.use(express.json());
 
